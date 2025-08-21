@@ -11,7 +11,7 @@ export default function Header() {
             </a>
             </picture>
             <nav className={styles.nav}>
-                <a href="#">Produto</a>
+                <a href="#produto">Produto</a>
                 <a href="#">Sobre</a>
                 <a href="#">Contato</a>
                 </nav>
