@@ -3,6 +3,8 @@ import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import Banner from "@/components/Banner";
 import Produtos from "@/components/Produtos";
+import Sobre from "@/components/Sobre";
+import Contato from "@/components/Contato";
 
 
 export default function Home() {
@@ -22,6 +24,14 @@ export default function Home() {
     
       <section>
         <Produtos/>
+      </section>
+
+      <section>
+        <Sobre/>
+      </section>
+
+      <section>
+        <Contato/>
       </section>
     </>
   );
